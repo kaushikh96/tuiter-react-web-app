@@ -1,9 +1,7 @@
 .wd-bg{
     background-color: black;
     border-color: rgb(47, 51, 54);
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid darkgray;
+    border: 1px solid lightgray;
 }
 
 .wd-title{
