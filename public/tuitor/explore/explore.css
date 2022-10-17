@@ -175,7 +175,7 @@ li.list-group-item.wd-follow-label{
 li.list-group-item.wd-main-menu{
     color: white;
     background-color: #222222;
-    font-size: 18px;
+    font-size: 17px;
     border-bottom: 1px solid rgb(47, 51, 54);
 }
 
@@ -217,4 +217,11 @@ a.nav-link{
 ul.nav.nav-tabs.wd-nav-tabs{
     padding-left:15px;
     border-bottom: 1px solid rgb(47, 51, 54);
+}
+a#wd-anchor{
+    color:white;
+    text-decoration: none;
+}
+li.list-group-item.wd-main-menu.wd-highlight-explore{
+    background-color: #0d6efd;
 }

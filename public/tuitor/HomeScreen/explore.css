@@ -282,7 +282,7 @@ input {
 
 li.list-group-item.wd-follow-label{
     color: white;
-    background-color: rgb(47, 51, 54);
+    background-color: #222222;
     border-radius: 0px;
     border: none;
 }
@@ -290,8 +290,12 @@ li.list-group-item.wd-follow-label{
 li.list-group-item.wd-main-menu{
     color: white;
     background-color: #222222;
-    font-size: 18px;
+    font-size: 17px;
     border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+li.list-group-item.wd-main-menu.wd-highlight-home{
+    background-color: #0d6efd;
 }
 
 #wd-main-content {
@@ -303,6 +307,10 @@ li.list-group-item.wd-main-menu{
     color:none;
     background-color: none;
     border-color: none;
+}
+a#wd-anchor{
+    color:white;
+    text-decoration: none;
 }
 a.nav-link.active.wd-active-link {
     color:rgb(110, 118, 125);
