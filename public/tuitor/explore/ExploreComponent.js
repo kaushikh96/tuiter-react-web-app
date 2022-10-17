@@ -7,7 +7,7 @@ const ExploreComponent = () => {
       <div class="col-11">
         <div class="position-relative">
             <span class="wd-search-icon position-absolute">
-                <i class="fa fa-search" aria-hidden="true" style="color:#71767B"></i>
+                <i class="fa fa-search" aria-hidden="true" style="color:darkgray"></i>
               </span>
         
         <input
@@ -21,7 +21,7 @@ const ExploreComponent = () => {
         <a href="explore-settings.html">
           <i
             class="fa fa-cog"
-            style="padding-top:10px; font-size: 20px; color: darkgray"
+            style="padding-top:8px; font-size: 25px;"
           ></i>
         </a>
       </div>
@@ -49,9 +49,11 @@ const ExploreComponent = () => {
       
         <div class="wd-spacex-image">
         <img id="wd-spacex-pic" src="../../image/spacexstarship.webp" />
-        <h1 class="position-absolute bottom-0 left-0 text-white">SpaceX's Starship</h1>
+        <h1 class="position-absolute bottom-0 left-0 text-darkgray">SpaceX's Starship</h1>
         </div>
+        <div id="wd-summary-content">
         ${PostSummaryList()}
+        </div>
     </div>
     </div>
 `); }
