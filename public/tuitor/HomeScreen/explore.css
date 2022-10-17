@@ -1,3 +1,117 @@
+.wd-zero-right-border{
+    border-right: 0px transparent;
+}
+.wd-rounded-buttons{
+    border-radius: 20px;
+}
+
+.fg-color-blue{
+    color: mediumslateblue;
+}
+
+.wd-overlay-name{
+    bottom: 70px;
+    color: rgb(4, 48, 44);
+    font-size: 40px;
+}
+
+.wd-gray-color{
+    color:gray;
+}
+
+.wd-rounded-images{
+    border-radius: 50%;
+}
+
+.wd-list-group .list-group-item{
+    background-color: #343a40;
+}
+
+.wd-post-list-group .list-group-item{
+    background-color: black;
+}
+
+.card.wd-card-bg{
+    background-color: black;
+    border: 1px solid #343a40;
+}
+.wd-nav-item{
+    color: white;
+}
+
+.wd-nav-bg-border{
+    border-bottom: 0;
+}
+
+.wd-main-content-images{
+    border-radius: 10px;
+}
+
+.wd-font-color{
+    color: white;
+}
+
+.wd-search-bar-color{
+    background-color: white;
+    border: none;
+}
+
+.wd-foreground-text{
+    color:#c9d1d9;
+}
+
+.wd-image-borders{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-button-bg:hover, .wd-button-bg{
+    background-color: rgb(114, 145, 196);
+    border: none;
+}
+
+.wd-font-white{
+    color: white;
+}
+
+.wd-follow-button{
+    background-color: white;
+    color: black;
+}
+
+.list-group-item.active{
+    background-color: rgb(114, 145, 196);
+    color: white;
+    border:none;
+}
+
+.nav-item.active{
+    background-color: rgb(114, 145, 196);
+}
+.nav-link:hover{
+    border: none;
+    color: white;
+}
+
+.wd-card-border{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.wd-card-title-border{
+    border-top:1px solid gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wd-explore{
+    background-color: black;
+}
+
+/**/
+
 .wd-background {
     background-color: black;
     border-color: rgb(47, 51, 54);
@@ -135,6 +249,7 @@ a {
 }
 
 #wd-react-image {
+    padding-top: 15px;
     width: 100%;
 }
 
@@ -167,7 +282,7 @@ input {
 
 li.list-group-item.wd-follow-label{
     color: white;
-    background-color: #222222;
+    background-color: rgb(47, 51, 54);
     border-radius: 0px;
     border: none;
 }
@@ -181,7 +296,7 @@ li.list-group-item.wd-main-menu{
 
 #wd-main-content {
     border: 1px solid rgb(47, 51, 54);
-    padding: 0px;
+    margin-top: 16px;
 }
 
 .nav-tabs .nav-link.active{
@@ -202,6 +317,9 @@ a.nav-link{
 }
 .wd-posts-two{
     padding: 15px;
+    background-color: #222222;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    border-radius: 2px;
 }
 
 .wd-disclaimer{
@@ -217,4 +335,13 @@ a.nav-link{
 ul.nav.nav-tabs.wd-nav-tabs{
     padding-left:15px;
     border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+#wd-bgcolor{
+    background-color: black;
+}
+
+.row .wd-icons{
+    padding-top: 4px;
+    font-size: 11px;
 }
