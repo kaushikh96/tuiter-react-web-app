@@ -24,13 +24,13 @@ const PostSummary = (posts) =>{
                 <i class='far fa-comment wd-gray-color'>&nbsp;${posts.commentNumber}</i>
             </div>
             <div class="col-3">
-                <i class='fa fa-share-alt wd-gray-color'>&nbsp;${posts.shareNumber}</i>
+            <i class="fa fa-retweet wd-gray-color">&nbsp;${posts.shareNumber}</i>
             </div>
             <div class="col-3">
-                <i class='fa fa-heart wd-gray-color'>&nbsp;${posts.heartNumber}</i>
+                <i class="fa fa-heart wd-gray-color">&nbsp;${posts.heartNumber}</i>
             </div>
             <div class="col-3">
-                <i class='fa fa-download wd-gray-color'></i>
+            <i class="fa fa-arrow-up-from-bracket wd-gray-color"></i>
             </div>
             </div>
                 </div>
