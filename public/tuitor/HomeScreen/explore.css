@@ -239,6 +239,7 @@ a {
     width: 100%;
     border-radius: 20px;
     margin-top: 5px;
+    align-items: center;
 }
 
 #wd-spacex-pic {
@@ -361,4 +362,5 @@ ul.nav.nav-tabs.wd-nav-tabs{
 .row .wd-icons{
     padding-top: 4px;
     font-size: 11px;
+    font-family:Arial, Helvetica, sans-serif;
 }
