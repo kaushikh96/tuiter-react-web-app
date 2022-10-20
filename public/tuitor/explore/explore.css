@@ -8,10 +8,10 @@
     flex-wrap: nowrap;
 }
 
-.row .wd-search-content{
+/* .row .wd-search-content{
     padding-left: 15px;
     padding-right: 12px;
-}
+} */
 
 .wd-search-bar-div {
     margin-top: 10px;
@@ -218,7 +218,6 @@ a.nav-link{
 }
 
 ul.nav.nav-tabs.wd-nav-tabs{
-    padding-left:15px;
     border-bottom: 1px solid rgb(47, 51, 54);
 }
 a#wd-anchor{
