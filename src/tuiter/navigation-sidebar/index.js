@@ -1,24 +1,32 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
 
 const NavigationSidebar = (
- {
-   active = 'explore'
- }
 ) => {
+  const {pathname} = useLocation();
+  const paths = pathname.split('/')
+  const active = paths[2];
  return (
     <>
     <div className="list-group wd-unique">
-      <a href="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
+      <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
         <div className="row">
         <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"><i className="bi bi-house-door-fill"></i></div>
         <div className="d-none d-xxl-block d-xl-block col-4 col-sm-0 col-md-0 col-lg-0 col-xl-4 col-xxl-4">Home</div>
         </div>
-      </a>
-      <a href="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
+      </Link>
+      <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
         <div className="row">
           <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"><i className="bi bi-hash"></i></div>
           <div className="d-none d-xxl-block d-xl-block col-4 col-sm-0 col-md-0 col-lg-0 col-xl-4 col-xxl-4">Explore</div>         </div>
-      </a>
+      </Link>
+      <Link to="/" className="list-group-item">
+      <div className="row">
+        <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"><i className="bi bi-folder-check"></i></div>
+        <div className="d-none d-xxl-block d-xl-block col-4 col-sm-0 col-md-0 col-lg-0 col-xl-4 col-xxl-4">Labs</div>
+        </div>
+     </Link>
       <div className="list-group-item wd-main-menu">
         <div className="row">
           <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"><i className="bi bi-bell-fill"></i></div>
@@ -50,9 +58,9 @@ const NavigationSidebar = (
           <div className="d-none d-xxl-block d-xl-block col-4 col-sm-0 col-md-0 col-lg-0 col-xl-4 col-xxl-4">More</div>        </div>
       </div>
     </div>
-    <button id="wd-tweet-button" type="submit" className="btn btn-primary">
+    {/* <button id="wd-tweet-button" type="submit" className="btn btn-primary">
       Tweet
-    </button>
+    </button> */}
     </>
    );
 };

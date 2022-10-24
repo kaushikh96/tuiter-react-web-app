@@ -20,16 +20,16 @@ const PostListItem = ({post}) => {
                     </div>
                     <div className="row wd-icons">
                     <div className="col-3">
-                <i className='far fa-comment wd-gray-color'>&nbsp;{post.commentNumber}</i>
+                <i className='bi bi-chat wd-gray-color'>&nbsp;{post.commentNumber}</i>
             </div>
             <div className="col-3">
-            <i className="fa fa-retweet wd-gray-color">&nbsp;{post.shareNumber}</i>
+            <i className="bi bi-arrow-repeat wd-gray-color">&nbsp;{post.shareNumber}</i>
             </div>
             <div className="col-3">
-                <i className="fa fa-heart wd-gray-color">&nbsp;{post.heartNumber}</i>
+                <i className="bi bi-heart-fill wd-red-color">&nbsp;{post.heartNumber}</i>
             </div>
             <div className="col-3">
-            <i className="fa fa-arrow-up-from-bracket wd-gray-color"></i>
+            <i className="bi bi-upload wd-gray-color"></i>
             </div>
             </div>
                 </div>

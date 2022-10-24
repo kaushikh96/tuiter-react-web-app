@@ -39,7 +39,7 @@
     border-radius: 20px;
     height: 40px;
     border-color: rgb(47, 51, 54);
-    border: 1px solid rgb(47, 51, 54);
+    border: lightgray;
     width: 92%;
     padding-left: 30px;
 }
@@ -126,10 +126,6 @@ a {
 
 #wd-react-image {
     width: 100%;
-}
-
-.wd-unique {
-    margin-top: 12px;
 }
 
 #wd-pages-menu {
