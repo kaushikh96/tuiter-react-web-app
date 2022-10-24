@@ -1,0 +1,333 @@
+.wd-zero-right-border{
+    border-right: 0px transparent;
+}
+.wd-rounded-buttons{
+    border-radius: 20px;
+}
+
+.fg-color-blue{
+    color: mediumslateblue;
+}
+
+.wd-overlay-name{
+    bottom: 70px;
+    color: darkgray;
+    font-size: 50px;
+}
+
+.wd-gray-color{
+    color:gray;
+}
+
+.wd-rounded-images{
+    border-radius: 50%;
+}
+
+.wd-list-group .list-group-item{
+    background-color: #343a40;
+}
+
+.card.wd-card-bg{
+    border: 1px solid #343a40;
+}
+
+.wd-nav-bg-border{
+    border-bottom: 0;
+}
+
+.wd-main-content-images{
+    border-radius: 10px;
+}
+
+.wd-search-bar-color{
+    background-color: white;
+    border: none;
+}
+
+.wd-image-borders{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-button-bg:hover, .wd-button-bg{
+    background-color: rgb(114, 145, 196);
+    border: none;
+}
+
+.wd-follow-button{
+    background-color: white;
+    color: black;
+}
+
+.list-group-item.active{
+    background-color: rgb(114, 145, 196);
+    color: white;
+    border:none;
+}
+
+.nav-item.active{
+    background-color: rgb(114, 145, 196);
+}
+.nav-link:hover{
+    border: none;
+    color: white;
+}
+
+.wd-card-border{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.wd-card-title-border{
+    border-top:1px solid rgb(47, 51, 54);
+    border-radius: 0px 5px 5px 0px;
+}
+
+#wd-explore{
+    background-color: black;
+}
+
+/**/
+
+.wd-background {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row .wd-row{
+    flex-wrap: nowrap;
+}
+
+.row .wd-search-content{
+    padding-left: 15px;
+    padding-right: 12px;
+}
+
+.wd-search-bar-div {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-left-search {
+    width: 5%;
+}
+
+.wd-grid-search-bar {
+    width: 90%;
+}
+
+.wd-grid-right-search {
+    width: 4%;
+    margin-right: 12px;
+}
+
+.wd-search-bar {
+    border-radius: 20px;
+    height: 40px;
+    background: rgb(47, 51, 54);
+    border-color: rgb(47, 51, 54);
+    border: 1px solid rgb(47, 51, 54);
+    width: 92%;
+    padding-left: 30px;
+}
+
+.wd-search-bar:focus{
+    outline:solid 1px darkgray;
+}
+
+input, select, textarea{
+    color: darkgray;
+}
+
+::placeholder {
+    color: #71767B;
+}
+
+.wd-link-highlight {
+    padding: 16px 0px;
+    margin: 0px 16px;
+    font-size: 15px;
+    color: rgb(29, 161, 242);
+
+}
+
+#wd-a-highlight {
+    text-decoration: none;
+    color: darkgray;
+    color: rgb(29, 161, 242);
+
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.wd-links-content {
+    padding: 16px;
+    font-size: 15px;
+    color: gray;
+}
+
+.wd-topic {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wd-title {
+    font-size: 15px;
+}
+
+.wd-posts-pic {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-top: 4px;
+}
+
+.wd-author {
+    color: white;
+}
+
+.wd-tweet-pages-pic {
+    border-radius: 20px;
+    height: 34px;
+    width: 34px;
+}
+
+#wd-follow-button {
+    height: 30px;
+    font-size: 12px;
+    border-radius: 17px;
+    margin-top: 4px;
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+#wd-tweet-button {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+#wd-spacex-pic {
+    width: 100%;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+#wd-react-image {
+    padding-top: 15px;
+    width: 100%;
+}
+
+.wd-unique {
+    margin-top: 12px;
+    background-color: black;
+}
+
+#wd-pages-menu {
+    margin-top: 12px;
+}
+
+.wd-search-icon {
+    margin-left: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    bottom: 4px;
+    left: 4px;
+}
+
+input {
+    padding-left: 25px;
+    height: 20px;
+}
+
+.wd-spacex-image {
+    position: relative;
+}
+
+li.list-group-item.wd-follow-label{
+    color: white;
+    background-color: #222222;
+    border-radius: 0px;
+    border: none;
+}
+
+li.list-group-item.wd-main-menu{
+    color: white;
+    background-color: #222222;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+li.list-group-item.wd-main-menu.wd-highlight-home{
+    background-color: #0d6efd;
+}
+
+#wd-main-content {
+    border: 1px solid rgb(47, 51, 54);
+    margin-top: 16px;
+}
+
+.nav-tabs .nav-link.active{
+    color:none;
+    background-color: none;
+    border-color: none;
+}
+a#wd-anchor{
+    color:white;
+    text-decoration: none;
+}
+a.nav-link.active.wd-active-link {
+    color:rgb(110, 118, 125);
+    background-color: black;
+    border: none;
+    border-bottom: 5px solid #0d6efd;;
+}
+
+a.nav-link{
+    color: #71767B;
+    border-bottom: 1px solid black;
+}
+
+.wd-posts-two{
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+.wd-disclaimer{
+    font-size:13px;
+    justify-content: center;
+    color: darkgray;
+    padding:12px 5px 0px 2px;
+}
+.wd-handler{
+    color: #71767B;;
+}
+
+ul.nav.nav-tabs.wd-nav-tabs{
+    padding-left:15px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+#wd-bgcolor{
+    background-color: black;
+}
+
+.row .wd-icons{
+    padding-top: 4px;
+    font-size: 11px;
+    font-family:Arial, Helvetica, sans-serif;
+}
