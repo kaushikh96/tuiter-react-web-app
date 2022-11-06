@@ -1,4 +1,6 @@
-const PostListItem = ({post}) => {
+const PostListItem = ({
+    post
+}) => {
  return(
     <div className="list-group-item">
             <div className="row">

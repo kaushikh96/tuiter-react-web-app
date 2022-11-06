@@ -1,9 +1,5 @@
 import React from "react";
-const PostSummaryItem = (
- {
-   post 
- }
-) => {
+const PostSummaryItem = ({post}) => {
  return(
     <div className="wd-posts-two">
     <div className="row">
