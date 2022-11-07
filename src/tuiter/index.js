@@ -26,7 +26,7 @@ const store = configureStore(
         </div>
         <div className="col-10 col-md-10 col-lg-11 col-xl-10">
         <Routes>
-         <Route path="home"    element={<HomeComponent/>}/>
+         <Route index  element={<HomeComponent/>}/>
          <Route path="explore" element={<ExploreComponent/>}/>
          <Route path="profile" element={<ProfileComponent/>}/>
          <Route path="editprofile" element={<EditProfileComponent/>}/>

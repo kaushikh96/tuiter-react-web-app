@@ -5,7 +5,7 @@ const PostSummaryItem = ({post}) => {
     <div className="row">
       <div className="col-10">
         <div className={post.topic?'wd-topic':''}>{post.topic}</div>
-        <div className="wd-title"><b>{post.userName}</b>&nbsp;<i className="bi bi-check-circle"></i>&nbsp;<span className="wd-topic"> - {post.time}</span></div>
+        <div className="wd-title"><b>{post.userName}</b>&nbsp;<i className="bi bi-check-circle-fill wd-blue-color"></i>&nbsp;<span className="wd-topic"> - {post.time}</span></div>
         <div className={post.title?'wd-title':''}><b>{post.title}</b></div>
         <div className={post.tweets?'wd-topic':''}><b>{post.tweets}</b></div>
       </div>

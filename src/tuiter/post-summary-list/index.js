@@ -8,7 +8,7 @@ const PostSummaryList = () => {
  return(
     
         postsArray.map(p=>
-            <PostSummaryItem post={p} />
+            <PostSummaryItem key={p._id} post={p} />
     )
     
  );

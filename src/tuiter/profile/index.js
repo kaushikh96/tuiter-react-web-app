@@ -9,6 +9,8 @@ const ProfileComponent = () => {
  const profileData = useSelector((state) => state.profile);
  let month = new Date(profileData.dateJoined).toDateString().slice(4,7);
  let year = new Date(profileData.dateJoined).toDateString().slice(11,15);
+ let dobarray = profileData.dateOfBirth.split("-"); 
+ let d = new Date(dobarray[0],dobarray[1],dobarray[2]).toDateString();
  let joinDate = month.concat(" ").concat(year);
  return(
   
@@ -25,9 +27,9 @@ const ProfileComponent = () => {
     </div>
   </div>
 
-<div class="columns the-header is-marginless">
-<div class="column header-text is-6 is-offset-3 is-12-mobile">
-  <img class="header-background" src="../../image/profilebackground.jpg" id="header-background-id" alt="background-img"/>
+<div class="columns wd-the-header-one is-marginless">
+<div class="column wd-header-text-one is-6 is-offset-3 is-12-mobile">
+  <img class="wd-header-background-one" src="../../image/profilebackground.jpg" id="header-background-id" alt="background-img"/>
 </div>
 </div>
 <Link to="/tuiter/editprofile" class="wd-editprofile-button">
@@ -35,7 +37,7 @@ const ProfileComponent = () => {
 </Link>
 
 <div class="column is-13 has-text-left">
-<img class="profile-picture" src="../../image/kai.png" alt="profile-picture"/>
+<img class="wd-profile-picture-one" src="../../image/kai.png" alt="profile-picture"/>
 </div>
 
 <div class="wd-profile-name">
@@ -52,10 +54,10 @@ const ProfileComponent = () => {
 <i class="bi bi-map"></i>&nbsp;{profileData.location}
 </div>
 <div class="col-4">
-<i class="bi bi-balloon-fill"></i>&nbsp;{new Date(profileData.dateOfBirth).toDateString().slice(4)}
+<i class="bi bi-balloon-fill"></i>&nbsp;{new Date(dobarray[0],dobarray[1] - 1,dobarray[2]).toDateString().slice(4)}
 </div>
 <div class="col-4">
-<i class="bi bi-calendar"></i>&nbsp;{joinDate}
+<i class="bi bi-calendar"></i>&nbsp;Joined&nbsp;{joinDate}
 </div>
 </div><br/>
 <div class="wd-followers">

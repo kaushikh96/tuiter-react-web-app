@@ -10,7 +10,7 @@ const NavigationSidebar = (
  return (
     <>
     <div className="list-group wd-unique">
-      <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
+      <Link to="/tuiter" className={`list-group-item ${!active ?'active':''}`}>
         <div className="row">
         <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"><i className="bi bi-house-door-fill"></i></div>
         <div className="d-none d-xxl-block d-xl-block col-4 col-sm-0 col-md-0 col-lg-0 col-xl-4 col-xxl-4">Home</div>

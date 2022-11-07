@@ -10,7 +10,7 @@ const WhoToFollowList = () => {
     <ul class="list-group">
     <li class="list-group-item wd-follow-label" style={{borderRadius:"15px 15px 0px 0p", fontSize:"20px"}}><b>Who to follow</b></li>
     {
-        whoArray.map(w=> <WhoToFollowListItem who={w} />)
+        whoArray.map((w, index)=> <WhoToFollowListItem key={index} who={w} />)
     }
     <li class="list-group-item wd-follow-label" style={{borderRadius:"0px 0px 15px 15px"}}>
     <div class="row wd-row">

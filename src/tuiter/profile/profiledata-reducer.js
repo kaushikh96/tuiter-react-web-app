@@ -9,8 +9,8 @@ const profile = {
         bio: "Former leader of the Blade Sharks and current leader of the G Revolutions. Also, former member of the Blitzkrieg Boys. Bit-Beast and Beyblade is Dranzer - one of the 4 Sacred Bit-Beasts.",
         website: "youtube.com/webdevtv",
         location: "Boston, MA",	
-        dateOfBirth: "10/13/1996",	
-        dateJoined: "4/3/2009",
+        dateOfBirth: "1996-10-13",	
+        dateJoined: "2009-6-1",
         followingCount: 340,	
         followersCount: 223,
         tweets: 4117
