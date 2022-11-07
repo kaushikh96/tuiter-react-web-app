@@ -3,6 +3,7 @@ import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
 import HomeComponent from "./home"
 import ProfileComponent from "./profile";
+import EditProfileComponent from "./edit-profile";
 import {Routes, Route} from "react-router";
 import { Provider } from "react-redux";
 import whoReducer from "./reducers/who-reducer";
@@ -28,6 +29,7 @@ const store = configureStore(
          <Route path="home"    element={<HomeComponent/>}/>
          <Route path="explore" element={<ExploreComponent/>}/>
          <Route path="profile" element={<ProfileComponent/>}/>
+         <Route path="editprofile" element={<EditProfileComponent/>}/>
        </Routes>
        </div>
         </div>

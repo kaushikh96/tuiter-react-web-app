@@ -18,7 +18,13 @@ const profile = {
 
 const tuitsSlice = createSlice({
  name: 'profile',
- initialState: profile
-});
-
+ initialState: profile,
+ reducers: {
+    updateProfile(state, action) {
+        return {...state,
+        ...action.payload}
+     
+    }
+}});
+export const {updateProfile} = tuitsSlice.actions;
 export default tuitsSlice.reducer;

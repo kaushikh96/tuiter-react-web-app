@@ -2,10 +2,14 @@ import React from "react";
 import WhoToFollowList from "../who-to-follow-list";
 import "./index.css";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 
 const ProfileComponent = () => {
  const profileData = useSelector((state) => state.profile);
+ let month = new Date(profileData.dateJoined).toDateString().slice(4,7);
+ let year = new Date(profileData.dateJoined).toDateString().slice(11,15);
+ let joinDate = month.concat(" ").concat(year);
  return(
   
   <div class="row">
@@ -16,7 +20,7 @@ const ProfileComponent = () => {
     <i class="bi bi-arrow-left-short wd-back-icon"></i>
     </div>
     <div class="col-11">
-    <b>Kai Hiwatari</b>
+    <b>{profileData.firstName}&nbsp;{profileData.lastName}</b>
 <div class="wd-tweets">{profileData.tweets} tweets</div>
     </div>
   </div>
@@ -26,9 +30,10 @@ const ProfileComponent = () => {
   <img class="header-background" src="../../image/profilebackground.jpg" id="header-background-id" alt="background-img"/>
 </div>
 </div>
-<div class="wd-editprofile-button">
+<Link to="/tuiter/editprofile" class="wd-editprofile-button">
 <button class="rounded-pill btn btn-primary float-end mt-2 ps-3 pe-3 fw-bold">Edit Profile</button>
-</div>
+</Link>
+
 <div class="column is-13 has-text-left">
 <img class="profile-picture" src="../../image/kai.png" alt="profile-picture"/>
 </div>
@@ -50,7 +55,7 @@ const ProfileComponent = () => {
 <i class="bi bi-balloon-fill"></i>&nbsp;{new Date(profileData.dateOfBirth).toDateString().slice(4)}
 </div>
 <div class="col-4">
-<i class="bi bi-calendar"></i>&nbsp;{new Date(profileData.dateJoined).toDateString().slice(4)}
+<i class="bi bi-calendar"></i>&nbsp;{joinDate}
 </div>
 </div><br/>
 <div class="wd-followers">
