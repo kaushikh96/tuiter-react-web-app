@@ -80,7 +80,7 @@ const saveProfile = () =>{
 <i class="bi bi-camera-fill"></i>
 </div>
 </div>
-</div>
+</div><br/>
 
 <div class="wd-profile-name">
 <div class="form-floating mb-3">
