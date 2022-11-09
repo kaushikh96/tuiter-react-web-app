@@ -16,7 +16,7 @@ const ProfileComponent = () => {
   
   <div class="row">
     
-<div className="col-12 col-lg-7 col-xl-7">
+<div className="col-12 col-lg-7 col-xl-7 wd-edit-div">
   <div class="row">
     <div class="col-1">
     <i class="bi bi-arrow-left-short wd-back-icon"></i>

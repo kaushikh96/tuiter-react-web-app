@@ -51,7 +51,7 @@ const saveProfile = () =>{
   
   <div class="row">
     
-<div className="col-12 col-lg-7 col-xl-7 position-relative">
+<div className="col-12 col-lg-7 col-xl-7 position-relative wd-edit-div">
   <div class="row">
     <Link to="/tuiter/profile" class="col-1">
     <i class="bi bi-x wd-back-icon"></i>
@@ -68,16 +68,18 @@ const saveProfile = () =>{
 <div class="column header-text is-6 is-offset-3 is-12-mobile">
   <img class="wd-header-background" src="../../image/profilebackground.jpg" id="header-background-id" alt="background-img"/>
 </div>
-</div>
-<div class="column is-13 has-text-left">
-<img class="wd-profile-picture" src="../../image/kai.png" alt="profile-picture"/>
-</div>
-<div class="wd-profile-icon position-absolute">
-<i class="bi bi-camera-fill"></i>
-</div>
 <div class="wd-banner-icon position-absolute">
 <i class="bi bi-camera-fill"></i>&nbsp;&nbsp;
 <b><i class="bi bi-x-circle-fill"></i></b>
+</div>
+</div>
+<div class="column is-13 has-text-left">
+  <div class=" wd-inner-div-profile position-relative">
+<img class="wd-profile-picture" src="../../image/kai.png" alt="profile-picture"/>
+<div class="wd-profile-icon position-absolute">
+<i class="bi bi-camera-fill"></i>
+</div>
+</div>
 </div>
 
 <div class="wd-profile-name">

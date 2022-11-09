@@ -43,8 +43,8 @@
 
 .wd-profile-icon{
     z-index: 10;
-    bottom: 62%;
-    left: 16%;
+    bottom: 70%;
+    left: 45%;
     font-size: 25px;
     color: lightgray;
 }
@@ -52,7 +52,16 @@
 .wd-banner-icon{
     z-index: 10;
     color: lightgray;
-    bottom: 73%;
+    bottom: 37%;
     left: 44%;
     font-size: 25px;
+}
+
+.wd-inner-div-profile{
+    width: fit-content;
+}
+.wd-edit-div{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
 }
