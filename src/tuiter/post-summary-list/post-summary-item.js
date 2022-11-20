@@ -2,6 +2,7 @@ import React from "react";
 const PostSummaryItem = ({post}) => {
  return(
     <div className="wd-posts-two">
+      {console.log(post)}
     <div className="row">
       <div className="col-10">
         <div className={post.topic?'wd-topic':''}>{post.topic}</div>

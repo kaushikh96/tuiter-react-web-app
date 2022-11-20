@@ -6,8 +6,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { updateProfile } from "../profile/profiledata-reducer";
 
-
-
 const EditProfileComponent = () => {
  const profileData = useSelector((state) => state.profile);
  let firstName = profileData.firstName;
@@ -22,7 +20,7 @@ const EditProfileComponent = () => {
  const dispatch = useDispatch();
  const navigate = useNavigate();
 
- const nameChangeHandler = (event) => {
+const nameChangeHandler = (event) => {
   setName(event.target.value);
 }
 const bioChangeHandler = (event) => {

@@ -6,7 +6,7 @@ import "./index.css";
 const ExploreComponent = () => {
  return(
   <div className="row">
-    <div className="col-12 col-lg-8 col-xl-7">
+    <div className="col-12 col-lg-8 col-xl-8">
     <div className="wd-content-padding wd-search-bar-div">
     <div className="row wd-search-content">
       <div className="col-11">
@@ -62,7 +62,7 @@ const ExploreComponent = () => {
     </div>
     </div>
     </div>
-    <div className="d-none d-lg-block col-lg-4 col-xl-5"><WhoToFollowList /></div>
+    <div className="d-none d-lg-block col-lg-4 col-xl-4"><WhoToFollowList /></div>
     </div>
  );
 };

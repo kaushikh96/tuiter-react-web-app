@@ -11,7 +11,7 @@ import tuitsReducer from "./tuits/tuits-reducer";
 import profileReducer from "./profile/profiledata-reducer";
 import { configureStore } from '@reduxjs/toolkit';
 const store = configureStore(
- {reducer: {who: whoReducer, tuits: tuitsReducer, profile: profileReducer}}
+ {reducer: {who: whoReducer, tuitsData: tuitsReducer, profile: profileReducer}}
 );
 
 
