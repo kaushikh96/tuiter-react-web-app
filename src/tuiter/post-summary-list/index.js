@@ -17,11 +17,12 @@ const PostSummaryList = () => {
       Loading...
     </div>
   }
-        {postsArray.map(p=>{
+  {
+    postsArray.map(p=>{
           return <PostSummaryItem key={p._id} post={p} />
     })
-    }
-    </div>
+  }
+  </div>
  );
 };
 export default PostSummaryList;
