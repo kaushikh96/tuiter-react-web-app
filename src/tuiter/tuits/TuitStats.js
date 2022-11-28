@@ -7,10 +7,10 @@ import { updateTuitThunk } from "../../services/tuits-thunks";
 const TuitStats = ({tu}) => {
 const dispatch = useDispatch();
 const ifLiked = () =>{
-        dispatch(updateTuitThunk({
+    dispatch(updateTuitThunk({
             ...tu,
             likes: tu.likes + 1, liked: true
-     }))      
+    }))      
 }
 const ifDisliked = () =>{
     if(!tu.disliked){
